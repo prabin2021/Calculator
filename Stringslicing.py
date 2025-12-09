@@ -13,7 +13,12 @@ a = "Python Programming"
 # print(a[:-2])
 # print(a[-5:])
 
-print(a[0:10:4])
+a = "Python"
+print(a[1:10])
+
+
+
+
 print(a[-10:-1:2])
 
 
