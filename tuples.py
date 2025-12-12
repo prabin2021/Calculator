@@ -28,7 +28,6 @@
 # print(surname)
 
 
-
 # email = ("aaditya@gmail.com","anish@gmail.com","ashim@gmail.com") 
 # (aaditya,anish,ashim) = email  #unpacking values from tuples
 # print(aaditya)
@@ -58,7 +57,10 @@ Tuple:
 ordered, unchangeable, allows duplicate members. syntax (), methods are not available, accessing the value is fast, data are secured here than list
 
 Set:
-unordered, unchangeable, doesn't allow duplicate members, syntax {}, methods are not available, 
+unordered, unchangeable, doesn't allow duplicate members, syntax {}, methods are available only for adding or removing data, 
+
+Dictionary: 
+ordered/unordered , changeable, doesn't allow duplicate members,  syntax = {}, methods are available 
 
 """
 
