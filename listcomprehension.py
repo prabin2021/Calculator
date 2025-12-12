@@ -27,3 +27,19 @@
 
 # print(newlist)
 # print(newlist2)
+
+animals = ["dog", "cat", "parrot", "rabbit", "fish", "lion","dinosaur"]
+
+# new_list = [i for i in animals if i.startswith("r")]
+# print(new_list)
+
+# for i in animals:
+#     if i.startswith("d"):
+#         print(i)
+
+# for i in animals:
+#     length = len(i)
+#     print(length)
+
+lenght_list = [len(i) for i in animals]
+print(lenght_list)
