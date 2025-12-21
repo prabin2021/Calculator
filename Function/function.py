@@ -16,9 +16,9 @@ Uses of function:
 
 """
 
-# def sum(a,b):
-#     sum_result = a + b
-#     return sum_result
+def sum(a,b):
+    sum_result = a + b
+    return sum_result
 
 
 # result = sum(3,5)

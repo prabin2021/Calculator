@@ -30,7 +30,6 @@ final_result = result(4)
 print(final_result)
 
 
-
 def cube(x):
     result = lambda y : x ** y   #-> lambda y : 5 ** y
     return result  # lambda y : 5 ** 3 
