@@ -15,7 +15,8 @@ while count <= total_questions:
     ques = random.choice(asked_questions)
     print(count , ques)
     user_ans = input("Enter you answer:")
-    if user_ans.lower() == questions[ques]:
+    total_answers = questions[ques]
+    if any(user_ans.lower() == i.lower() for i in total_answers):
         print("Correct Answer")
         score = score + 1
     else:

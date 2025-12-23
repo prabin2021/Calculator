@@ -9,6 +9,10 @@ Standard Libraries - libraries that needs to be installed for using them. numpy,
 
 pip - package installer for python
 
-Virtual Environments
-"""
+Virtual Environments - it prevents package version conflict, portable , improves installation process, it allows to test different versions of libraries
 
+python -m venv website  -> to make virtual environment
+website\Scripts\activate   -> to activate virtual environment
+pip install [libraries_name]
+deactivate   -> to deactivate virtual environment
+"""
