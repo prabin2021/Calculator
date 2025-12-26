@@ -7,7 +7,7 @@
 #         self.id = id   # creating instance
 #         self.name = name   # creating instance
 #         self.contact = contact     #object ko properties
-    
+
 
 # s1 = Student("S001","Ram",9800)
 # s2 = Student("S002","Shyam",9810)
@@ -63,8 +63,3 @@
 
 # s1.details()
 
-
-
-#Next topics :
-#1. class properties, manipulation on class properties, class properties vs object properties
-#2. class methods, manipulation with  class methods
