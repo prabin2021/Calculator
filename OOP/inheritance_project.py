@@ -25,8 +25,6 @@ class Student(User):
     def login_status(self):
         print("Student logged in.")
         
-    
-
 
 class Admin(User):
     
