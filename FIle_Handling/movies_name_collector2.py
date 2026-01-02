@@ -7,12 +7,10 @@ class Playlist:
         self.upload_movies()
     
     def upload_movies(self):    #load the contents of "movies_list.txt" file in list named as "movies_list"
-        try:      # try except is a way to handle error if the file is not found on that location
-             
+        try:      # try except is a way to handle error if the file is not found on that location 
             with open(self.file_path,"r") as f:
                 for content in f:
-                    self.movie_list.append(content.strip())
-                    
+                    self.movie_list.append(content.strip())           
         except FileNotFoundError:
             print("File not found")
                       
