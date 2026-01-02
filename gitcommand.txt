@@ -40,9 +40,7 @@ git ignore - it helps to ignore the unnecessary files, large files and secret fi
 
 to create another branch and work on it and push the codes in main branch: 
 
-git checkout -b (branch name)
-
-
+git checkout -b (branch name) - creating the new branch and switching on it
 
 Version Control:
 It is a system which tracks the changes in codes or projects.
