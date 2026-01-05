@@ -33,13 +33,20 @@ git branch -m main
 git push origin main
 
 
-git clone (project link)
+git clone (project link) - to bring the project from repository to local device
+git status - to check the modified files after pushing the codes
+
+git ignore - it helps to ignore the unnecessary files, large files and secret files from pushing into the github
+
+to create another branch and work on it and push the codes in main branch: 
+
+git checkout -b (branch name) - creating the new branch and switching on it
+
 Version Control:
 It is a system which tracks the changes in codes or projects.
 It also tracks the version of python,libraries,modules,packages,etc.
 It allows collaborations.
 It helps to recover the older versions or history.
-
 
 Git: tool
 Github: service

@@ -1,2 +1,2 @@
-import cowsay
-cowsay.cow("Hey, I am cow")
+# import cowsay
+# cowsay.cow("Hey, I am cow")
